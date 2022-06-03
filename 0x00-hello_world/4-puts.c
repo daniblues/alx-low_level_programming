@@ -1,14 +1,8 @@
 #include <stdio.h>
 
-/**
- * this function prints a sentence.
- *
- * Return: success (0)
- */
-
-	int main (void)
+int main (void)
 {
-	puts ("/""Programming is like building a multilingual puzzle");
-	return (0);
+	puts("programming is like building a multilingual puzzle\n");
 
+		return (0);
 }
