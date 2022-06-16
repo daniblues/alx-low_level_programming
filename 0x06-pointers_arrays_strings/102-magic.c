@@ -1,7 +1,8 @@
 #include "main.h"
+
 /**
- * program prints a magic number
- *   Return: 0 always
+ * Add one line to this code, so that the program prints a[2] = 98
+ * Return: 0
  */
 int main(void)
 {
