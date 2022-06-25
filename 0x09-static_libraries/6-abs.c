@@ -1,22 +1,17 @@
 #include "main.h"
-#include <stdio.h>
 /**
- * _abs - Entry Function
- * Descritpion: absolute value function
- * @c: int for number
- * Return: 0 or 1
+ * _abs - compute the absolute value of an integer
+ * @n: int type number
+ * Return: absolute value of @n
  */
-int _abs(int c)
+int _abs(int n)
 {
-	int p;
-
-	if (c < 0)
+	if (n < 0)
 	{
-		p = c * -1;
+		return (n * -1);
 	}
 	else
 	{
-		p = c;
+		return (n);
 	}
-	return (p);
 }
