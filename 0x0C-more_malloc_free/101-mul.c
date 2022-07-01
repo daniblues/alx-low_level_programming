@@ -1,6 +1,6 @@
-#include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
+#include "main.h"
 
 /**
  * is_digit - checks if a string contains a non-digit char
@@ -30,6 +30,7 @@ int is_digit(char *s)
 int _strlen(char *s)
 {
 	int i = 0i
+
 
 	while (s[i] != '\0')
 	{
