@@ -4,8 +4,7 @@
  * get_bit - returns the value of a bit at index
  * get_bit - returns the value of a bit at index
  * @index: param
- *
- * @n - type of data return
+ * @n: input long integer
  * Return: int
  */
 
